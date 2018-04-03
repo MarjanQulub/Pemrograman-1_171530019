@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praktikum 4 : Effect Toggle</title>
+        <script type="text/javascript" src="asset/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="asset/css/sty;e1.css">
+    </head>
+    <body>
+        <h1>Effect paada JQUery | Toggle</h1>
+        <button id="tombol1">Tampilkan</button>
+        <button id="tombol2">Sembunyikan</button>
+        <div class="box"></div>
+    </body>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#tombol1').click(function(){
+                $('.box').toggle();
+            });
+        });
+    </script>
+</html>
